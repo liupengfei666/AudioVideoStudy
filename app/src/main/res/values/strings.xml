@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AudioVideoStudy</string>
+    <string name="show_pic_by_imageview">ImageView显示图片</string>
+    <string name="show_pic_by_customview">自定义View显示图片</string>
+    <string name="show_pic_by_surfaceview">SurfaceView显示图片</string>
+    <string name="show_picture">显示图片</string>
+</resources>
