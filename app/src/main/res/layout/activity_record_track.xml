@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/start_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startRecord"
+        android:text="@string/start_record"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/stop_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stopRecord"
+        android:text="@string/stop_record"
+        app:layout_constraintStart_toEndOf="@id/start_record"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/record_status"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/start_record" />
+
+    <Button
+        android:id="@+id/start_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="startPlay"
+        android:text="@string/start_play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/record_status" />
+
+    <Button
+        android:id="@+id/stop_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="stopPlay"
+        android:text="@string/stop_play"
+        app:layout_constraintStart_toEndOf="@id/start_play"
+        app:layout_constraintTop_toBottomOf="@id/record_status" />
+
+    <TextView
+        android:id="@+id/play_status"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/start_play" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/pcm_to_wav"
+        android:onClick="pcm2wav"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/play_status" />
+
+</android.support.constraint.ConstraintLayout>

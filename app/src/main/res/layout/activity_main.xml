@@ -19,6 +19,13 @@
             android:textColor="@android:color/black"
             android:text="@string/show_picture"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="getPCMAndPlay"
+            android:textColor="@android:color/black"
+            android:text="@string/audio_record_track"/>
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

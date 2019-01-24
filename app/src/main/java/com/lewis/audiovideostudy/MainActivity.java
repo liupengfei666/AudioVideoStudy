@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.lewis.audiovideostudy.activity.AudioRecordTrackActivity;
 import com.lewis.audiovideostudy.activity.ShowPicture;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,5 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void showPicture(View view) {
         startActivity(new Intent(this, ShowPicture.class));
+    }
+
+    /**
+     * 采集PCM数据并播放，并且生成wav文件
+     */
+    public void getPCMAndPlay(View view) {
+        startActivity(new Intent(this, AudioRecordTrackActivity.class));
     }
 }

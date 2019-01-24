@@ -4,4 +4,13 @@
     <string name="show_pic_by_customview">自定义View显示图片</string>
     <string name="show_pic_by_surfaceview">SurfaceView显示图片</string>
     <string name="show_picture">显示图片</string>
+    <string name="audio_record_track">采集PCM数据并播放,同时生成wav文件</string>
+    <string name="start_record">开始录制</string>
+    <string name="stop_record">停止录制</string>
+    <string name="start_play">开始播放PCM数据</string>
+    <string name="stop_play">停止播放PCM数据</string>
+    <string name="recording">正在录制中，请勿进行其他操作</string>
+    <string name="stop_recording">停止录制</string>
+    <string name="playing">正在播放，请勿进行其他操作</string>
+    <string name="pcm_to_wav">PCM转WAV</string>
 </resources>
