@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.lewis.audiovideostudy.activity.AudioRecordTrackActivity;
+import com.lewis.audiovideostudy.activity.CameraPreviewActivity;
 import com.lewis.audiovideostudy.activity.ShowPicture;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,5 +26,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public void getPCMAndPlay(View view) {
         startActivity(new Intent(this, AudioRecordTrackActivity.class));
+    }
+
+    /**
+     * Camera视频采集
+     */
+    public void cameraPreview(View view) {
+        startActivity(new Intent(this, CameraPreviewActivity.class));
     }
 }

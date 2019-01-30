@@ -13,4 +13,8 @@
     <string name="stop_recording">停止录制</string>
     <string name="playing">正在播放，请勿进行其他操作</string>
     <string name="pcm_to_wav">PCM转WAV</string>
+    <string name="camera_preview">用Camera进行视频采集，并获取NV21数据</string>
+    <string name="surface_view_preview">SurfaceView预览</string>
+    <string name="texture_view_preview">TextureView预览</string>
+    <string name="take_photo">拍照</string>
 </resources>

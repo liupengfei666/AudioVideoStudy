@@ -26,6 +26,13 @@
             android:textColor="@android:color/black"
             android:text="@string/audio_record_track"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cameraPreview"
+            android:textColor="@android:color/black"
+            android:text="@string/camera_preview"/>
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
