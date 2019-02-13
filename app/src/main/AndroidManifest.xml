@@ -28,6 +28,8 @@
             android:screenOrientation="portrait" />
         <activity android:name=".activity.CameraPreviewActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.MediaExtractorMuxerActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

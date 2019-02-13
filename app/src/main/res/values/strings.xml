@@ -17,4 +17,8 @@
     <string name="surface_view_preview">SurfaceView预览</string>
     <string name="texture_view_preview">TextureView预览</string>
     <string name="take_photo">拍照</string>
+    <string name="media_extractor_muxer"><![CDATA[MediaExtractor&MediaMuxer解析、封装Mp4文件]]></string>
+    <string name="extractor_video">抽取视频文件</string>
+    <string name="extractor_audio">抽取音频文件</string>
+    <string name="muxer_video_audio">合成视频音频</string>
 </resources>

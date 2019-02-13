@@ -33,6 +33,13 @@
             android:textColor="@android:color/black"
             android:text="@string/camera_preview"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mediaExtractorMuxer"
+            android:textColor="@android:color/black"
+            android:text="@string/media_extractor_muxer"/>
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
