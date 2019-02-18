@@ -11,6 +11,7 @@ import android.view.View;
 import com.lewis.audiovideostudy.activity.AudioRecordTrackActivity;
 import com.lewis.audiovideostudy.activity.CameraPreviewActivity;
 import com.lewis.audiovideostudy.activity.MediaExtractorMuxerActivity;
+import com.lewis.audiovideostudy.activity.OpenGLCanvasTriangleActivity;
 import com.lewis.audiovideostudy.activity.ShowPicture;
 
 public class MainActivity extends AppCompatActivity {
@@ -48,5 +49,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public void mediaExtractorMuxer(View view) {
         startActivity(new Intent(this, MediaExtractorMuxerActivity.class));
+    }
+
+    /**
+     * OpenGL绘制三角形
+     */
+    public void openGLCanvasTriangle(View view) {
+        startActivity(new Intent(this, OpenGLCanvasTriangleActivity.class));
     }
 }
