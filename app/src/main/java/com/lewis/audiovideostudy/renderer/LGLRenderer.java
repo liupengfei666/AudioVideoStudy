@@ -84,6 +84,8 @@ public class LGLRenderer implements GLSurfaceView.Renderer {
 
         //绘制三角形
         mTriangle.draw(scratch);
+        //绘制正方形
+//        mSquare.draw(scratch);
     }
 
     /**
