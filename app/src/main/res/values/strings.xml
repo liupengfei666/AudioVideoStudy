@@ -22,4 +22,5 @@
     <string name="extractor_audio">抽取音频文件</string>
     <string name="muxer_video_audio">合成视频音频</string>
     <string name="canvas_triangle_by_opengl">使用 OpenGL 绘制一个三角形</string>
+    <string name="draw_image_by_opengl">使用OpenGL显示一张图片</string>
 </resources>

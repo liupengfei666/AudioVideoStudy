@@ -12,6 +12,7 @@ import com.lewis.audiovideostudy.activity.AudioRecordTrackActivity;
 import com.lewis.audiovideostudy.activity.CameraPreviewActivity;
 import com.lewis.audiovideostudy.activity.MediaExtractorMuxerActivity;
 import com.lewis.audiovideostudy.activity.OpenGLCanvasTriangleActivity;
+import com.lewis.audiovideostudy.activity.OpenGLShowImageActivity;
 import com.lewis.audiovideostudy.activity.ShowPicture;
 
 public class MainActivity extends AppCompatActivity {
@@ -56,5 +57,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public void openGLCanvasTriangle(View view) {
         startActivity(new Intent(this, OpenGLCanvasTriangleActivity.class));
+    }
+
+    /**
+     * OpenGL显示一张图片
+     */
+    public void openGLDrawImage(View view) {
+        startActivity(new Intent(this, OpenGLShowImageActivity.class));
     }
 }

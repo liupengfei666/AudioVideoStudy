@@ -47,6 +47,13 @@
             android:textColor="@android:color/black"
             android:text="@string/canvas_triangle_by_opengl"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openGLDrawImage"
+            android:textColor="@android:color/black"
+            android:text="@string/draw_image_by_opengl"/>
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
