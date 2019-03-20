@@ -23,4 +23,6 @@
     <string name="muxer_video_audio">合成视频音频</string>
     <string name="canvas_triangle_by_opengl">使用 OpenGL 绘制一个三角形</string>
     <string name="draw_image_by_opengl">使用OpenGL显示一张图片</string>
+    <string name="mediacodec_aac">MediaCodec AAC硬编硬解</string>
+    <string name="mediacodec_mp3_pcm_aac">点击开始编解码，解码mp3,编码aac</string>
 </resources>

@@ -10,6 +10,7 @@ import android.view.View;
 
 import com.lewis.audiovideostudy.activity.AudioRecordTrackActivity;
 import com.lewis.audiovideostudy.activity.CameraPreviewActivity;
+import com.lewis.audiovideostudy.activity.MediaCodecAudioActivity;
 import com.lewis.audiovideostudy.activity.MediaExtractorMuxerActivity;
 import com.lewis.audiovideostudy.activity.OpenGLCanvasTriangleActivity;
 import com.lewis.audiovideostudy.activity.OpenGLShowImageActivity;
@@ -64,5 +65,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public void openGLDrawImage(View view) {
         startActivity(new Intent(this, OpenGLShowImageActivity.class));
+    }
+
+    /**
+     * MediaCodec AAC硬编硬解
+     */
+    public void mediaCodecAAC(View view) {
+        startActivity(new Intent(this, MediaCodecAudioActivity.class));
     }
 }

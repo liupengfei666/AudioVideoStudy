@@ -35,6 +35,7 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.OpenGLCanvasTriangleActivity" />
         <activity android:name=".activity.OpenGLShowImageActivity" />
+        <activity android:name=".activity.MediaCodecAudioActivity" />
     </application>
 
 </manifest>
