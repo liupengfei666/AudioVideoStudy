@@ -61,6 +61,13 @@
             android:textColor="@android:color/black"
             android:text="@string/mediacodec_aac"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mediaCodecDecodeV"
+            android:textColor="@android:color/black"
+            android:text="@string/mediacodec_decode_video"/>
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

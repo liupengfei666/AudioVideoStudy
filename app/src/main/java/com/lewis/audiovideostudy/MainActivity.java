@@ -11,6 +11,7 @@ import android.view.View;
 import com.lewis.audiovideostudy.activity.AudioRecordTrackActivity;
 import com.lewis.audiovideostudy.activity.CameraPreviewActivity;
 import com.lewis.audiovideostudy.activity.MediaCodecAudioActivity;
+import com.lewis.audiovideostudy.activity.MediaCodecDecodeVideoActivity;
 import com.lewis.audiovideostudy.activity.MediaExtractorMuxerActivity;
 import com.lewis.audiovideostudy.activity.OpenGLCanvasTriangleActivity;
 import com.lewis.audiovideostudy.activity.OpenGLShowImageActivity;
@@ -72,5 +73,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public void mediaCodecAAC(View view) {
         startActivity(new Intent(this, MediaCodecAudioActivity.class));
+    }
+
+    /**
+     * MediaCodec 视频H.264硬解
+     */
+    public void mediaCodecDecodeV(View view) {
+        startActivity(new Intent(this, MediaCodecDecodeVideoActivity.class));
     }
 }

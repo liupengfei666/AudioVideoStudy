@@ -25,4 +25,7 @@
     <string name="draw_image_by_opengl">使用OpenGL显示一张图片</string>
     <string name="mediacodec_aac">MediaCodec AAC硬编硬解</string>
     <string name="mediacodec_mp3_pcm_aac">点击开始编解码，解码mp3,编码aac</string>
+    <string name="mediacodec_decode_video">MediaCodec视频H.264硬解</string>
+    <string name="click_decode_video">点击开始视频解码</string>
+    <string name="release_decode_video">释放解码资源</string>
 </resources>
