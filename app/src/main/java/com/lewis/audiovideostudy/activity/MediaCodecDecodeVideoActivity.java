@@ -9,6 +9,7 @@ import android.view.SurfaceView;
 import android.view.View;
 
 import com.lewis.audiovideostudy.R;
+import com.lewis.audiovideostudy.decode.DecodeAsync;
 import com.lewis.audiovideostudy.decode.DecodeThread;
 
 /**
@@ -53,7 +54,10 @@ public class MediaCodecDecodeVideoActivity extends AppCompatActivity implements 
 
     @Override
     public void surfaceCreated(SurfaceHolder holder) {
-        startDecode();
+        //方式一
+//        startDecode();
+        //方式二
+        DecodeAsync.get().startDecoder(mH264_Path, mSurfaceHolder.getSurface());
     }
 
     @Override
@@ -73,7 +77,10 @@ public class MediaCodecDecodeVideoActivity extends AppCompatActivity implements 
     @Override
     public void finish() {
         super.finish();
+        //方式一
         release();
+        //方式二
+        DecodeAsync.get().release();
     }
 
 }

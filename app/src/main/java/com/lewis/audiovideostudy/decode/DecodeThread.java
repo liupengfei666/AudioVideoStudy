@@ -49,7 +49,7 @@ public class DecodeThread extends Thread {
             int outputIndex = mDecodeMediaCodec.dequeueOutputBuffer(bufferInfo, 0);
             while (bufferInfo.presentationTimeUs / 1000 > System.currentTimeMillis() - startTime) {
                 try {
-                    sleep(10);
+                    sleep(10);//这儿如果不休眠，可能会播放很快
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
